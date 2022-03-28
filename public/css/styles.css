@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  height: 100%;
+  margin: 0;
+  font-family: "Volvo Novum", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #ffffff;
+}
+
+.carousal-container .slick-slide {
+  max-width: 362px;
+}
+
+@media screen and (min-width: 1024px) {
+  .carousal-container .slick-slide {
+    max-width: 349px;
+  }
+}
